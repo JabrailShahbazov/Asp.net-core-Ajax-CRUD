@@ -60,7 +60,7 @@ $(function () {
 
     jQueryAjaxDelete = form => {
         if (confirm('Are you sure to delete this record ?')) {
-            try {
+            try { 
                 $.ajax({
                     type: 'POST',
                     url: form.action,
